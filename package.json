@@ -1,0 +1,28 @@
+{
+  "name": "my_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass sass:public/styles --watch --poll --no-source-map",
+    "start": "node express_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmaddaadaa/my_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmaddaadaa/my_app/issues"
+  },
+  "homepage": "https://github.com/ahmaddaadaa/my_app#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mime": "^3.0.0",
+    "morgan": "^1.10.0"
+  }
+}
